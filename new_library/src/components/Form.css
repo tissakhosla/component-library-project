@@ -1,0 +1,33 @@
+form {
+  font-family: "Helvetica";
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  width: 300px;
+}
+
+.form-default, .form-ml, .form-l {
+  border-radius: 5px;
+}
+.form-default {
+  padding: 15px;
+}
+.form-ml {
+  padding: 18px;
+}
+.form-l {
+  font-size: 16px;
+  padding: 20px;
+} 
+
+input {
+  letter-spacing: 1px;
+  font-weight: lighter;
+  color: #C1C8CE;
+  font-size: inherit;
+  display: block;
+  border: solid #e5e8ea 2px;
+  width: inherit;
+}
+

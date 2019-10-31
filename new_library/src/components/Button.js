@@ -7,15 +7,6 @@ const Button = (props) => {
   if (types.includes(props.type)){
     classList += ` button-${props.type}`
   }
-  if (props.large) {
-    classList += ` button-large`
-  }
-  if (props.outline){
-    classList += ` button-outline`
-  }
-  if (props.hover){
-    classList += ` button-hover`
-  }
     return (
       <button className={classList}>
         {props.label}
