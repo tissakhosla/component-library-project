@@ -1,8 +1,31 @@
-button {
+.button-primary,
+.button-danger,
+.button-success,
+.button-warning,
+.button-default {
   color: white;
-  padding: 5px 25px;
+  padding: 12px 25px;
   border-radius: 3px;
   padding: '5px 25px';
-  background-color: darkblue;
-  border-color: darkblue;
+}
+
+.button-primary {
+  background-color:#33A0FF;
+  border-color: #33A0FF;
+}
+
+.button-primary-white {
+  background-color:white;
+  color: #33A0FF;
+}
+
+.button-primary-inverse {
+  background-color: rgba(51, 160, 255, 0.479);
+  color: #33A0FF;
+  border-color: #33A0FF;
+
+}
+
+.button-hover:hover{
+  background: lightcoral;
 }
