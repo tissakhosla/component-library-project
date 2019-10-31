@@ -2,6 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import Button from './Button';
 ////NEEED TO MAKE DEFAULT TYPELESS!!
+////OUTLINES NEED TO BE PASSED IN AS PROPS
 storiesOf('Buttons', module)
     .add('Primary', () => <Button label="Do something" type="primary" default/>)
     .add('Primary white', () => <Button label="Do something" type="primary" white/>)
