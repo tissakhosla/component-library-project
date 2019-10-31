@@ -5,6 +5,7 @@
 .button-default {
   color: white;
   padding: 12px 25px;
+  border: solid 1px;
   border-radius: 3px;
   padding: '5px 25px';
 }
@@ -20,12 +21,27 @@
 }
 
 .button-primary-inverse {
-  background-color: rgba(51, 160, 255, 0.479);
+  border: 0px;
+  background-color: rgba(51, 160, 255, 0.2);
   color: #33A0FF;
+}
+
+.button-primary {
+  background-color:#33A0FF;
   border-color: #33A0FF;
-
 }
 
-.button-hover:hover{
-  background: lightcoral;
+.button-primary-white {
+  background-color:white;
+  color: #33A0FF;
 }
+
+.button-primary-inverse {
+  border: 0px;
+  background-color: rgba(51, 160, 255, 0.2);
+  color: #33A0FF;
+}
+
+/* .button-hover:hover{
+  background:  rgb(0, 136, 255);
+} */
