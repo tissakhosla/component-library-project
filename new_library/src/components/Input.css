@@ -6,16 +6,16 @@ form {
   width: 300px;
 }
 
-.form-default, .form-ml, .form-l {
+.input-default, .input-ml, .input-l {
   border-radius: 5px;
 }
-.form-default {
+.input-default {
   padding: 15px;
 }
-.form-ml {
+.input-ml {
   padding: 18px;
 }
-.form-l {
+.input-l {
   font-size: 16px;
   padding: 20px;
 } 

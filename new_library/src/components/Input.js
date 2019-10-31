@@ -1,13 +1,13 @@
 import React from 'react';
-import './Form.css'
+import './Input.css'
 
-const Form = (props) => {
+const Input = (props) => {
   let classList = ''
   let sizes = ['default', 'ml', 'l']
 
   if (sizes.includes(props.size)) {
     console.log(props.size)
-    classList += ` form-${props.size}`
+    classList += ` input-${props.size}`
   }
   console.log(classList)
   return (
@@ -18,4 +18,4 @@ const Form = (props) => {
   )
 }
 
-export default Form;
+export default Input;
