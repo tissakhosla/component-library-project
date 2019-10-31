@@ -1,0 +1,30 @@
+/* ARROW NEEDS STYLING */
+.select-default, .select-ml, .select-l { 
+  font-size: 14px;
+  font-family: "Helvetica";
+  line-height: 1.8;
+  font-weight: lighter;
+  border: solid #e5e8ea 2px;
+  cursor: context-menu;
+}
+
+.select-default {
+  width: 200px;
+  height: 38px;
+}
+
+.select-ml {
+  width: 300px;
+  height: 46px;
+}
+
+.select-l {
+  width: 300px;
+  height: 60px;
+}
+
+.select-filled {
+  background: #e5e8ea;
+}
+
+
