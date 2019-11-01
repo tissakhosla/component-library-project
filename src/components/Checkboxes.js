@@ -1,23 +1,16 @@
 import React, { Component } from 'react'
 import './Checkboxes.css'
 import check from '../icons/check.svg'
+import checkbox from '../icons/checkbox.svg'
 
-class Checkboxes extends Component {
-  constructor(props){
-    super(props)
-
-    this.state = {
-      click: this.props.click,
-      classList: 'check'
-    }
+const Checkboxes = (props) => {
+  let handleClick = (eo) => {
+    eo.preventDefault()
+    
   }
-
-  render() {
-
-    return (
-      <div className="checkbox"><img className='check' src={check}></img></div>
-    )
-  }
+  return (
+    <div onClick={handleClick} className="checkbox"><img src={check} /></div>
+  )
 }
 
 export default Checkboxes;
