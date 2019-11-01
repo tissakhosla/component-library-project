@@ -1,11 +1,32 @@
-.checkbox {
+.checkbox-blue {
+  display: flex;
   background-color: rgb(51, 160, 255);
   width: 18px;
   height: 18px;
-  border: solid  rgb(51, 160, 255) 1px;
+  border: solid  rgb(51, 160, 255) 2px;
+  border-radius: 2.5px;
+}
+
+.checkbox-black {
+  display: flex;
+  outline: none;
+  background-color: rgb(0, 0, 0);
+  width: 18px;
+  height: 18px;
+  border: solid  rgb(0, 0, 0) 3px;
   border-radius: 2.5px;
 }
 
 .check {
   padding: 3px 2px 2px 4px;
 }
+
+.text {
+  width: 300px;
+  padding: 0 0 0 15px;
+  font-family: "Helvetica";
+  font-size: 14px;
+  font-weight: lighter;
+
+}
+

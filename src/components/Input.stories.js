@@ -13,7 +13,7 @@ storiesOf('Text Fields', module)
     <InputWithSubmit value="GET IT" placeholder="whatever you want"></InputWithSubmit>)
   
 storiesOf('Check Boxes', module)
-  .add("Blue Check Box", () => <Checkboxes blue/>)
-  .add("Black Check Box", () => <Checkboxes black/>)
-
-
+  .add("Blue Check Box", () => <Checkboxes color='blue'/>)
+  .add("Black Check Box", () => <Checkboxes color='black'/>)
+  .add("Blue Check Box with Text", () => <Checkboxes color='blue' text="Do not use checkboxes ever again."/>)  
+  .add("Black Check Box with Text", () => <Checkboxes color='black' text="Do not use checkboxes ever again."/>)
