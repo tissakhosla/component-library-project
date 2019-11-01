@@ -16,8 +16,9 @@ const Select = (props) => {
     <form>
       <select className={classList} placeholder={props.value}>
         <option value="0">{props.value}</option>
-        <option value="1">{props.value}</option>
-        <option value="3">{props.value}</option>
+        <option value="1">{0.001}</option>
+        <option value="2">{0.002}</option>
+        <option value="3">{0.003}</option>
       </select>
     </form>
   )

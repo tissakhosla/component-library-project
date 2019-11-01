@@ -3,8 +3,10 @@ import { storiesOf } from '@storybook/react';
 import Button from './Button';
 import Counter from './Counter'
 
+
 ////NEEED TO MAKE DEFAULT TYPELESS!!
 ////OUTLINES NEED TO BE PASSED IN AS PROPS
+// Counter is broken
 storiesOf('Buttons', module)
   .add('Primary', () => <Button label="Do something" type="primary" default />)
   .add('Primary white', () => <Button label="Do something" type="primary" white />)
@@ -21,10 +23,12 @@ storiesOf('Buttons', module)
   .add('Default', () => <Button label="Do something" type="default" default />)
   .add('Default white', () => <Button label="Do something" type="default" white />)
   .add('Default inverse', () => <Button label="Do something" type="default" inverse />)
-  .add('Cart', () => <Button type="primary" inverse cart></Button>)
-  .add('Heart', () => <Button type="primary" inverse heart></Button>)
+  .add('Cart', () => <Button type="primary" inverse cartPlain></Button>)
+  .add('Heart', () => <Button type="primary" inverse heartPlain></Button>)
+  .add('Cart w Text', () => <Button label="Add To Cart" type="primary" inverse cartText></Button>)
+  .add('Heart w Text', () => <Button label="Add To Favorites" type="primary" inverse heartText></Button>)
 
 storiesOf('Counters', module)
-  .add('not yet', () => <Counter max={5} min ={-5} start={2} increment={1}></Counter>)
+  .add('not yet', () => <Counter max={5} min={-5} start={2} increment={1}></Counter>)
 
 

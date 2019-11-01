@@ -1,33 +1,42 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Plus from './Plus-icon'
 import Minus from './Minus-icon'
 
 import './Counter.css'
-//y no work :,()
-const Counter = (props) => {
-  let current = props.start
+// needs styling
+class Counter extends Component {
+  constructor(props){
+    super(props)
+
+    this.state = {
+      max: this.props.max,
+      min: this.props.min,
+      increment: this.props.increment,
+      current: this.props.start
+    }
+    this.increase = this.increase.bind(this)
+    this.decrease = this.decrease.bind(this)
+  }
   
-  let increase = (eo) => {
-    
+  
+  increase = (eo) => {
     eo.preventDefault();
-    current = current + props.increment;
-    return current;
+    this.setState({current: this.state.current + this.state.increment})
   }
 
-  let decrease = (eo) => {
-    
+  decrease = (eo) => {
     eo.preventDefault();
-    current = current - props.increment;
-    return current;
+    this.setState({current: this.state.current - this.state.increment});
   }
 
-  return (
+  render () {
+    return (
     <div>
-    <div className="block a" onClick={decrease}><Minus /></div>
-    <div className="block b">{current}</div>
-    <div className="block c" onClick={increase}><Plus /></div>
+    <div className="block a" onClick={this.decrease}><Minus /></div>
+    <div className="block b">{this.state.current}</div>
+    <div className="block c" onClick={this.increase}><Plus /></div>
     </div>
-  )
+    )
+  }
 }
-
 export default Counter;
