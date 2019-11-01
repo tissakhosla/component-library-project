@@ -24,6 +24,6 @@ storiesOf('Buttons', module)
   .add('Default inverse', () => <Button label="Do something" type="default" inverse />)
 
 storiesOf('Counters', module)
-  .add('not yet', () => <Counter onClick max={5} min ={-5} start={0} increment={0.5}></Counter>)
+  .add('not yet', () => <Counter onClick max={5} min ={-5} start={2} increment={0.5}></Counter>)
 
 

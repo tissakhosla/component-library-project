@@ -1,4 +1,13 @@
-.counter {
-  display: inline;
-  background-color: rgb(246, 247, 248);
+
+.block {
+  font-size: 16px;
+  font-family: "Helvetica";
+  line-height: 1.8;
+  font-weight: lighter;
+  display: inline-block;
+  padding: 18px 23px;
 }
+
+.a{background-color: cadetblue;}
+.b{background-color: chocolate;}
+.c{background-color: darkgoldenrod;}

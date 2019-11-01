@@ -3,7 +3,7 @@ import Plus from './Plus-icon'
 import Minus from './Minus-icon'
 
 import './Counter.css'
-
+//y no work :,()
 const Counter = (props) => {
   let current = props.start
   
@@ -18,13 +18,12 @@ const Counter = (props) => {
     eo.preventDefault()
     return current = current - props.increment
   }
-  
-  
+
   return (
     <div>
-    <div onClick={decrease}><Minus /></div>
-    <div>{current}</div>
-    <div onClick={increase}><Plus /></div>
+    <div className="block a" onClick={decrease}><Minus /></div>
+    <div className="block b">{current}</div>
+    <div className="block c" onClick={increase}><Plus /></div>
     </div>
   )
 }
