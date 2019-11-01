@@ -4,6 +4,8 @@ import Minus from './Minus-icon'
 
 import './Counter.css'
 // needs styling
+// Needs min and max to work
+
 class Counter extends Component {
   constructor(props){
     super(props)
