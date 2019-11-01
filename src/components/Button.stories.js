@@ -22,8 +22,9 @@ storiesOf('Buttons', module)
   .add('Default', () => <Button label="Do something" type="default" default />)
   .add('Default white', () => <Button label="Do something" type="default" white />)
   .add('Default inverse', () => <Button label="Do something" type="default" inverse />)
+  // .add('Cart text' () = => <Button label="Add To Cart" 
 
 storiesOf('Counters', module)
-  .add('not yet', () => <Counter onClick max={5} min ={-5} start={2} increment={0.5}></Counter>)
+  .add('not yet', () => <Counter max={5} min ={-5} start={2} increment={1}></Counter>)
 
 

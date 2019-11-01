@@ -8,15 +8,17 @@ const Counter = (props) => {
   let current = props.start
   
   let increase = (eo) => {
-    console.log(eo)
-    eo.preventDefault()
-    return current = current + props.increment
+    
+    eo.preventDefault();
+    current = current + props.increment;
+    return current;
   }
 
   let decrease = (eo) => {
-    console.log(eo)
-    eo.preventDefault()
-    return current = current - props.increment
+    
+    eo.preventDefault();
+    current = current - props.increment;
+    return current;
   }
 
   return (

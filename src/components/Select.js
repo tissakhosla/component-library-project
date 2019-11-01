@@ -1,6 +1,6 @@
 import React from 'react'
 import './Select.css'
-
+// CHANGE SELECTION OPTIONS
 const Select = (props) => {
   let classList = ''
   let sizes = ['default', 'ml', 'l']
