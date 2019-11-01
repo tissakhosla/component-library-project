@@ -3,7 +3,6 @@ import plus from '../icons/plus.svg'
 
 
 const Plus = () => {
-  console.log("Something")
   return (
     <div>
       <img src={plus}></img>
