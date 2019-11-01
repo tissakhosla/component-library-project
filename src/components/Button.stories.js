@@ -1,7 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import Button from './Button';
-
 import Counter from './Counter'
 
 ////NEEED TO MAKE DEFAULT TYPELESS!!
@@ -22,7 +21,8 @@ storiesOf('Buttons', module)
   .add('Default', () => <Button label="Do something" type="default" default />)
   .add('Default white', () => <Button label="Do something" type="default" white />)
   .add('Default inverse', () => <Button label="Do something" type="default" inverse />)
-  // .add('Cart text' () = => <Button label="Add To Cart" 
+  .add('Cart', () => <Button type="primary" inverse cart></Button>)
+  .add('Heart', () => <Button type="primary" inverse heart></Button>)
 
 storiesOf('Counters', module)
   .add('not yet', () => <Counter max={5} min ={-5} start={2} increment={1}></Counter>)
