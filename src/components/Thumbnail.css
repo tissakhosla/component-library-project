@@ -1,0 +1,49 @@
+.thumbnail {
+  height: 349px;
+  width: 270px;
+  border: solid lightgray 2px;
+  border-radius: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.pic {
+  margin: 10px;
+}
+
+.line {
+  border: solid lightgray .4px;
+  margin: 0 15px;
+}
+
+.title, .new-cost, .old-cost {
+  font-weight: lighter;
+  font-size: 12px;
+  font-family: "Helvetica";
+  text-align: center;
+}
+
+.ratings {
+  display: flex;
+  justify-content: center;
+}
+
+.new-cost {
+  color: #FF4252;
+}
+
+.old-cost {
+  color: #C1C8CE;
+  text-decoration: line-through;
+}
+
+
+
+/* .circle {
+  background: rgb(51, 160, 255) url(../icons/hearts-1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 23px 23px;
+  border-radius: 50%;
+} */

@@ -6,7 +6,6 @@ import Counter from './Counter'
 
 ////NEEED TO MAKE DEFAULT TYPELESS!!
 ////OUTLINES NEED TO BE PASSED IN AS PROPS
-// Counter is broken
 storiesOf('Buttons', module)
   .add('Primary', () => <Button label="Do something" type="primary" default />)
   .add('Primary large', () => <Button label="Do something" type="primary" default large/>)
@@ -42,6 +41,7 @@ storiesOf('Buttons', module)
   .add('Heart', () => <Button type="primary" inverse heartPlain></Button>)
   .add('Cart w Text', () => <Button label="Add To Cart" type="primary" inverse cartText></Button>)
   .add('Heart w Text', () => <Button label="Add To Favorites" type="primary" inverse heartText></Button>)
+  
 
 storiesOf('Counters', module)
   .add('not yet', () => <Counter max={5} min={-5} start={2} increment={1}></Counter>)

@@ -9,7 +9,7 @@ import Heart from './Heart-icon'
 const Button = (props) => {
   let classList = ''
   let types = ['primary', 'danger', 'success', 'warning']
-
+  
   if (types.includes(props.type)) {
     classList += ` button-${props.type}`
   }
