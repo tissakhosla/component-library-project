@@ -4,7 +4,7 @@ import './Select.css'
 const Select = (props) => {
   let classList = ''
   let sizes = ['default', 'ml', 'l']
-  let fill = ''
+  // let fill = ''
 
   if (sizes.includes(props.size)) {
     classList += ` select-${props.size}`

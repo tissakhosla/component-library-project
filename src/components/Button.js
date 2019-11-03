@@ -22,6 +22,11 @@ const Button = (props) => {
   if (props.inverse) {
     classList += ` button-${props.type}-inverse`
   }
+
+  if (props.large) {
+    classList += ` large`
+  }
+
   if (props.cartPlain) {
     return (
       <button className={classList}>

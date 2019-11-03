@@ -9,9 +9,11 @@
 .text-field, .text-field:focus {
   outline: none;
   padding: 15px 10px;
-  /* border: solid #e5e8ea 2px; */
   border-right: 0px;
   width: 200px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
 }
 
 .submit, .submit-field:focus {

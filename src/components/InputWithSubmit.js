@@ -14,7 +14,7 @@ class InputWithSubmit extends Component {
 
   handleSubmit(eo) {
     eo.preventDefault()
-    eo.persist()
+    // eo.persist()
     alert(`You want ${eo.target[0].value}?!`)
   }
 

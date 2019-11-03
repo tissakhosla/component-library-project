@@ -3,8 +3,9 @@ button {
   padding: 12px 25px;
   border: solid 1px;
   border-radius: 3px;
-  padding: "5px 25px";
+  font-weight: lighter;
 }
+
 .button-primary-default {
   background-color: rgb(51, 160, 255);
   border-color: rgb(51, 160, 255);
@@ -89,4 +90,9 @@ button {
   border: 0px;
   background-color: rgb(13, 40, 64, 0.2);
   color: rgb(13, 40, 64);
+}
+
+.large {
+  padding: 17.5px 26px;
+  font-size: 12px;
 }
