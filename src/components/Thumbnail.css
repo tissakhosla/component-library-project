@@ -1,7 +1,7 @@
 .thumbnail {
   height: 349px;
   width: 270px;
-  border: solid lightgray 2px;
+  border: solid rgb(211, 211, 211) 2px;
   border-radius: 1%;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,63 @@
 
 .pic {
   margin: 10px;
+  background: url(../icons/macbook.jpg);
+  height: 153px;
+  width: 236px;
 }
+
+.buttons {
+  background: rgb(255, 255, 255);
+  height: 153px;
+  width: 236px;
+  opacity: 0;
+}
+
+.buttons:hover {
+  background: rgb(255, 255, 255);
+  height: 153px;
+  width: 236px;
+  opacity: 0;
+  opacity: .8;
+}
+
+
+.blue-cart {
+  border: 0px;
+  background: rgb(51, 160, 255) url(../icons/cart_3.svg);
+
+}
+.blue-heart {
+  border: 0px;
+  background: rgb(51, 160, 255) url(../icons/hearts-1.svg);
+} 
+
+.grey-cart{
+  border: solid lightblue 2px;
+  background: url(../icons/cart_2.svg);
+}
+.grey-heart {
+  border: solid lightblue 2px;
+  background: url(../icons/hearts.svg);
+} 
+
+.blue-cart, .blue-heart, .grey-cart, .grey-heart {
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 23px 23px;
+  border-radius: 50%;
+  margin: 50px 0;
+}
+
+.favorite {
+  opacity: 0.1;  
+}
+
+.favorite:hover {
+  opacity: 0.8;
+}
+
+
 
 .line {
   border: solid lightgray .4px;
@@ -37,13 +93,3 @@
   color: #C1C8CE;
   text-decoration: line-through;
 }
-
-
-
-/* .circle {
-  background: rgb(51, 160, 255) url(../icons/hearts-1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 23px 23px;
-  border-radius: 50%;
-} */
