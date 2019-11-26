@@ -14,7 +14,6 @@ storiesOf('Thumbnails', module)
   .add('Light Portrait', () => <Thumbnail
     orientation='portrait'
     shade='light'
-    pic="../icons/macbook.jpg"
     product="Apple Macbook Pro"
     retail={599}
     discount={499}
@@ -22,7 +21,6 @@ storiesOf('Thumbnails', module)
   .add('Dark Landscape', () => <Thumbnail
     orientation='landscape'
     shade='dark'
-    pic="../icons/macbook.jpg"
     product="Apple Macbook Pro"
     retail={599}
     discount={499}
@@ -30,8 +28,14 @@ storiesOf('Thumbnails', module)
   .add('Light Landscape', () => <Thumbnail
     orientation='landscape'
     shade='light'
-    pic="../icons/macbook.jpg"
     product="Apple Macbook Pro"
     retail={599}
     discount={499}
     outline />)
+  .add("Floating Thumbnail", () => <Thumbnail
+    headphones
+    orientation='landscape'
+    shade='light'
+    product="Beats Solo 2 On Ear Headphones - Black"
+    retail={499}
+    discount={299}/>)

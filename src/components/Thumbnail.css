@@ -1,5 +1,5 @@
 .thumbnail-dark-landscape, .thumbnail-light-landscape {
-  width: 460px;
+  width: 470px;
   height: 182px;
   border-radius: 1%;
   display: flex;
@@ -49,6 +49,11 @@
 
 .pic-dark {
   background: rgb(231, 231, 231, .8) url(../icons/macBook.svg);
+}
+
+.pic-headphones {
+  background: url(../icons/headphones.svg);
+  background-repeat: no-repeat;
 }
 
 .buttons {

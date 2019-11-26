@@ -20,6 +20,10 @@ const Thumbnail = (props) => {
     heartColorClass = "grey-heart"
   }
 
+  if (props.headphones) {
+    picClass = 'pic-headphones'
+  }
+
 
 
   return (
