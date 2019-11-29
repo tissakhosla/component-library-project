@@ -1,0 +1,65 @@
+/* APPLY THIS TO THE OTHERS!!! */
+.listing {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.pic {
+  background: url(../icons/macBook.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 270px;
+  height: 270px;
+  border: solid lightgray 2px;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+
+.heading {
+  font-size: 24;
+}
+
+.info {
+  font-weight: lighter;
+  font-size: 14px;
+  font-family: "Helvetica";
+  width: 40vw;
+  margin: 0 10px;
+}
+
+.ratings {
+  display: flex;
+  width: 26vw;
+}
+
+.number-of-reviews, .submit-a-review {
+  margin: auto 10px;
+}
+
+.submit-a-review {
+  color: cornflowerblue;
+}
+
+.number-of-reviews {
+  color: dimgrey; 
+}
+
+.new-cost, .old-cost {
+  font-size: 24px;;
+}
+
+.new-cost {
+  color: #FF4252;
+}
+
+.old-cost {
+  color: #C1C8CE;
+  text-decoration: line-through;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  width: 20vw;
+}

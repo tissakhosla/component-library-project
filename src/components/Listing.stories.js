@@ -7,7 +7,6 @@ storiesOf('Listings', module)
     () => <Product 
       numberOfReviews={0}
       productName="Beats Solo2 On Ear Headphones - Black"
-      labelValue="HOT"
       discount={199}
       retail={299}
       />)
