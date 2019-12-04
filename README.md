@@ -1,68 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Storybook Component Library
 
-## Available Scripts
+ - Storybook is an open source tool for developing UI components in isolation for React, Vue, and Angular. It makes building stunning UIs organized and efficient.
 
-In the project directory, you can run:
+ - When setup well, the components are very flexible and allow for certain custom, or contextual information to be passed in as props. Storybook itself is a way to manage, view and organize a component library which can be implemented and personalized. 
 
-### `npm start`
+### Basic steps
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Fork and clone this repository. 
+1. Once the necessary dependencies are installed, use `npm run storybook` to run the storybook server. 
+1. If the command fails, confirm that `"storybook": "start-storybook"` is in the scripts object within package.json.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Organization of Library
 
-### `npm test`
+- The Library is organized into categories known as Stories, which are setup in Component.stories.js. 
+- They begin with the components at the lowest level, and as we go down the list, the components have components within them. 
+- Each Story can also be setup this way. See ***Atomic Design in React***
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Pros of using Storybook/Component Library
 
-### `npm run build`
+ - When working on projects, components can be created and tested in isolation, and then easily transferred. 
+ - Once it has been built it can be reused and tweaked for many other functions, and each version will add to the growing library. 
+ - There are already great component libraries out there to use!
+      - http://react.carbondesignsystem.com/
+      - https://storybook.js.org/docs/examples/
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Building hip components is an art! 
