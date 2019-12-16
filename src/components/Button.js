@@ -8,7 +8,7 @@ import Heart from './Heart-icon'
 //3. Heart and Favorites need styling, and class adjustment... can only happen
 const Button = (props) => {
   let classList = ''
-  let types = ['primary', 'danger', 'success', 'warning']
+  let types = ['primary','orange', 'danger', 'success', 'warning']
   
   if (types.includes(props.type)) {
     classList += ` button-${props.type}`
